@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles (optional) */
+
+/* Add additional custom classes if needed. For example: */
+.grid-item {
+  @apply border border-gray-300 bg-white rounded-md shadow-md;
+}
+
+.admin-drawer {
+  @apply w-64 bg-gray-100 p-4;
+}
+
+.grid-canvas {
+  @apply grid grid-cols-4 gap-2 w-full h-screen bg-gray-100;
+}
+
+/* Responsive styles for flex layouts */
+.flex-layout {
+  @apply flex flex-col md:flex-row;
+}
+
+.hidden-md {
+  @apply hidden md:block;
+}
+
+.dragging {
+  @apply opacity-50;
+}
+
+.drop-hover {
+  @apply bg-green-200;
+}
